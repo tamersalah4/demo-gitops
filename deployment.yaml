@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: web
-        image: ghcr.io/tamersalah4/demo-app:
+        image: ghcr.io/tamersalah4/demo-app:0caabb8
         ports:
         - containerPort: 8080
         resources:
